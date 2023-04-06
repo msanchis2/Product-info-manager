@@ -1,0 +1,11 @@
+
+POST http://localhost:8000/categorias
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub21icmUiOiJURVNUMiIsImlkIjozLCJtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2NDE4OTE4MjQsImV4cCI6MTY0MjQ5NjYyNH0.nPOkDj-IPyC-wZU7kdXz2DoodW9ic-uwqmwsC-sJ1rE
+
+{
+  "empresaId": 1,
+  "codigo": "CatNEW",
+  "nombre": "Categoria",
+  "padre": "C001"
+}

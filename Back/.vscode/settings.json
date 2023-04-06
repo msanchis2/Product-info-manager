@@ -1,0 +1,49 @@
+{
+  "editor.rulers": [80],
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  //"editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "dist": true,
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "typescript.preferences.quoteStyle": "single",
+  "eslint.run": "onSave",
+  "eslint.nodePath": "./node_modules",
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#fa1b92",
+    "activityBar.activeBorder": "#b00b69",
+    "activityBar.background": "#b00b69",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#bd0065",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#990f58",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#fa1b92",
+    "titleBar.activeBackground": "#990f58",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#990f58",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#b00b69"
+}
